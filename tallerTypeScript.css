@@ -1,0 +1,114 @@
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.banner {
+    display: block;
+    background-color: lightskyblue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.layout-container {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column {
+    flex: 0 65%;
+}
+
+.right-column {
+    flex: 0 35%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.series-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.series-link:hover {
+    text-decoration: underline;
+}
+
+.average-seasons {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+#series-detail {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+#series-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#series-title {
+    margin: 0 0 15px 0;
+    font-size: 1.5em;
+}
+
+#series-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#series-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#series-link:hover {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
